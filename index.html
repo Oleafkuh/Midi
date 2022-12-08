@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body onload="initializeLonLat()"></body>
+
+
+<button id="addLongitude" onclick="addLongitude(10)">add 10 degrees to longitude</button> 
+    <button id="subLongitude" onclick="subLongitude(10)">subtract 10 from longitude</button>
+    <button id="addLatitude" onclick="addLat(10)">add 10 degrees to lat</button>
+    <button id="subLatitude" onclick="subLat(10)">subtract 10 from lat</button> 
+
+    
+    <!-- button for running weather api call-->
+    <button id="makeApiCall" onclick="makeApiCall()">Get the weather</button>
+
+
+
+
+    <div id="drawingArea">
+
+    </div>
+    
+    <!-- <div id="totalCarbon" onclick="">
+
+    </div> -->
+
+
+    
+   
+
+
+
+
+
+    <!-- <div id="DONKI_example">
+        <button onclick="DONKI_example()">Run DONKI_example</button>
+        </div> -->
+        
+
+    <!-- <div id="Nasa_Image_Video_example">
+        <button onclick="asteroid()">mars</button>
+        </div>      --> -->
+
+
+
+    
+
+    <script src="api.js">
+    </script>
+</body>
+</html>
